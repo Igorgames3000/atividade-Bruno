@@ -8,6 +8,16 @@ package State;
  *
  * @author igorg
  */
-public class State {
+public abstract class State {
+    Agendamento agendar();
     
+    State(Agendamento agendar){
+        this agendar = agendar;
+    }
+    
+    public void Concluir();
+    public void cancelar();
+    public void pendente();
+    public void confirmar();
+     public void reaagendar();
 }
