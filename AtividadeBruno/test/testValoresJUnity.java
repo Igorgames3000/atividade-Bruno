@@ -20,6 +20,6 @@ public class testValoresJUnity {
        int Esperado = 40;
         int soma = tstv.soma(v1,v2); 
         System.out.println(soma);
-        Assertions.assertEquals(40,Esperado);
+        Assertions.assertEquals(Esperado,40);
     }
 }
